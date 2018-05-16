@@ -1,0 +1,206 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.question {
+	background-color: #4CAF50;
+	border: 2px solid #bdcdbe;
+	color: white;
+	padding: 9px 62px;
+	text-align: center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 13px;
+}
+
+.assign {
+	background-color: #4CAF50;
+	color: white;
+	padding: 9px 62px;
+	text-align: center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 13px;
+}
+
+
+.codeButton {
+	background-color: #4CAF50;
+	border: 2px solid #bdcdbe;
+	color: white;
+	padding: 0px 22px;
+	text-align: -webkit-center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 14px;
+	width: 16%;
+	float: left;
+	margin-right: 10px;
+	margin-left: 2px;
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.commentButton {
+	background-color: #4CAF50;
+	border: 2px solid #bdcdbe;
+	color: white;
+	padding: 0px 22px;
+	text-align: -webkit-center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 14px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+.active {
+	background-color: lightblue;
+}
+
+.leftCol {
+	position: fixed;
+	overflow: auto;
+	right: 78%;
+	left: 0px;
+	top: 5%;
+	bottom: 0px;
+	heigth:100%;
+}
+
+.leftCol .questionClass {
+	height: 48%;
+}
+
+.leftCol .commentClass {
+	height: 45%;
+}
+
+
+
+.rightCol {
+	position: fixed;
+	overflow: auto;
+	left: 22%;
+	right: 0%;
+	top: 25px;
+	bottom: 17px;
+	width: 78%;
+	height: 95%;
+}
+
+.rightCol .rightQuestion {
+	height: 4%;
+}
+
+.rightCol .rightAnswer {
+	height: 60%;
+}
+
+.area {
+	height: 100%;
+	width: 100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.rightCol .rightButton {
+	height: 5%;
+}
+
+.rightCol .rightOutput {
+	height: 29%;
+}
+
+.solid {
+	border-width:1px;  
+    border-style:solid;
+}
+
+.rigthComments{
+    position:fixed;
+    width:70px;
+    float:right;
+    background-color:red;
+    height:40px;
+    bottom:0px;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+
+/* The Modal (background) */
+.askQuery {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 37%;
+    height: 15%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.queryArea {
+	height: 100%;
+	width: 90%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.queryDiv{
+	height: 82%;
+}
+

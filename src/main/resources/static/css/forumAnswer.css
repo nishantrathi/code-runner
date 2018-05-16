@@ -1,0 +1,122 @@
+@CHARSET "ISO-8859-1";
+
+#parent {
+	margin-top: 20px;
+}
+
+#questionDiv {
+	width: 100%;
+}
+
+#questionInfo {
+	width: 67%;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 35px;
+}
+
+#answerButton {
+	width: 10%;
+}
+
+#answerDiv {
+	margin-top: 20px;
+}
+
+.individual {
+	width: 100%;
+}
+
+.left {
+	width: 67%;
+    float: left;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 17px;
+    background-color: lavender;
+}
+
+.right {
+	margin-top: 17px;
+    width: 14%;
+    float: left;
+    background-color: beige;
+    height: 120px;
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+	height: 47%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.queryArea {
+	height: 100%;
+	width: 90%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.ansQuery {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.codeButton {
+	background-color: #4CAF50;
+	/* border: 2px solid #bdcdbe; */
+	color: white;
+	padding: 1px 25px;
+	text-align: -webkit-center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 14px;
+	width: 9%;
+	float: left;
+}
+
+.popupAnswerButton {
+	background-color: #4CAF50;
+	/* border: 2px solid #bdcdbe; */
+	color: white;
+	padding: 1px 25px;
+	text-align: -webkit-center;
+	text-decoration: none;
+	display: -webkit-box;
+	font-size: 14px;
+	width: 9%;
+	float: left;
+	margin-top: 5px;
+}
+
+.queryDiv {
+	height: 82%;
+}
